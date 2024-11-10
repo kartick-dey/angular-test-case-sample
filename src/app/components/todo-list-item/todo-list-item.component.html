@@ -1,0 +1,7 @@
+<div class="view">
+  <ng-container *ngIf="todo">
+    <input *ngIf="todo.id != 0" class="toggle" type="checkbox" [checked]="todo.complete">
+    <label>{{todo.title}}</label>
+  </ng-container>
+  </div>
+  
